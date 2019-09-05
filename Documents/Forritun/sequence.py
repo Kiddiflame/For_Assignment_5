@@ -11,3 +11,18 @@ n = int(input("Enter the length of the sequence: ")) # Do not change this line
 tala1 = 0
 tala2 = 0
 tala3 = 0
+
+for i in range(1, n-1):
+    if tala1 <= 0:
+        tala1 = i
+        tala2 = tala1+1
+        tala3 = tala2+1
+        print(tala1)
+        print(tala2)
+        print(tala3)
+    else:
+        tala4 = tala1+tala2+tala3
+        tala1 = tala2
+        tala2 = tala3
+        tala3 = tala4
+        print(tala4)
