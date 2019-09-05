@@ -5,3 +5,9 @@
 #5. Ef tala 1 og 2 hafa gildi, tala 3 er jöfn og tala 1 og 2 summuð
 #6. Tala 3 er gerð að tölu 2 og 2 að 1
 #7 Endurtaka skref 5 og 6
+
+
+n = int(input("Enter the length of the sequence: ")) # Do not change this line
+tala1 = 0
+tala2 = 0
+tala3 = 0
